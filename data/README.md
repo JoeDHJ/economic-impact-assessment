@@ -1,0 +1,11 @@
+# Public evidence snapshot
+
+`public/sources/` contains only official aggregated public files used by this case. The source inventory is `source-manifest.json`: original URLs, retrieval date, vintage, geography, units, license, file size and record counts. Source-native workbooks are retained. No private microdata, unpublished research or client data is included.
+
+Scottish Government, Skills England and SDS data are attributed to their original producers and distributed under the Open Government Licence v3.0, as indicated by the source sites. The repository's MIT license covers project code and original documentation; it does not replace the data producers' terms. [OGL v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+The staffing file includes both 2024 and 2025; this release uses 7,416 2025 rows. The SIC lookup groups 88 two-digit industries into 18 broad groups. Official demand status is available for 368 occupations; all 412 staffing occupations remain in the model, and unavailable demand status is explicit. The raw data are estimates of economic activity and administrative counts; project investment, capture, power and staffing are assumptions.
+
+`processed/industries.csv` contains official accounts and derived direct FTE and compensation benchmarks. `industry_crosswalk.csv` documents the grouping, `training_supply.csv` preserves selected actual framework totals, and `skills-reference.csv` provides a small traced qualitative skills reference. `regional-wages.csv` reproduces actual ASHE median gross weekly earnings for Scottish full-time employees from Table 1.1.1: £773.80 in April 2025, provisional and nominal. This 2025 observation remains separate from 2022 model prices. Advisory NCS salary ranges are not Scottish observed wages; they never enter employment calculations. The ASHE workbook's withdrawn Table 5.4.2 is unused.
+
+Regenerate from source: `python scripts/prepare_data.py`. Preserve the snapshot while checking downloads: `impact-assessment refresh --destination data/public/sources` skips existing files. To retrieve a fresh copy in a new directory, choose a separate destination; review source revisions and rerun validation before replacing the released snapshot.

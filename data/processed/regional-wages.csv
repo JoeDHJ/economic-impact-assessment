@@ -1,0 +1,2 @@
+source_id,source,source_url,retrieved_at,accessed_date,source_vintage,geography,unit_of_observation,period,currency,price_year,unit,status,schema_version,value
+sg_ashe_2025,Scottish Government analysis of ONS ASHE,https://www.gov.scot/publications/annual-survey-of-hours-and-earnings-2025/pages/employee-earnings/,2026-11-16,2026-11-16,2025 provisional; supporting workbook updated 7 October 2026,Scotland,"full-time employee jobs, all sexes",April 2025,GBP,2025,nominal GBP per week; median gross earnings,official_survey_estimate_provisional,portfolio.v1,773.8

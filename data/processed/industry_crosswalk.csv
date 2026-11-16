@@ -1,0 +1,99 @@
+sic2007_io,source_sic2,proxy_group,weighting,coverage,source_id
+01,01,Agriculture forestry and fishing,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+"02.1, 02.4",02,Agriculture forestry and fishing,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+02.2-3,02,Agriculture forestry and fishing,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+03.1,03,Agriculture forestry and fishing,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+03.2,03,Agriculture forestry and fishing,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+05,05,Mining and quarrying,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+06-08,06,Mining and quarrying,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+09,09,Mining and quarrying,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+10.1,10,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+10.2-3,10,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+10.4-5,10,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+10.6,10,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+10.7,10,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+10.8,10,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+10.9,10,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+11.01-04,11,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+11.05-06,11,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+11.07,11,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+12,12,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+13,13,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+14,14,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+15,15,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+16,16,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+17,17,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+18,18,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+"19, 20B",19,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+20.3,20,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+20.4,20,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+20.5,20,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+20AC,20,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+21,21,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+22,22,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+23.5-6,23,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+23OTHER,23,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+24.1-3,24,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+24.4-5,24,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+25,25,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+26,26,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+27,27,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+28,28,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+29,29,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+30,30,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+31,31,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+32,32,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+33,33,Manufacturing and production,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+35.1,35,Utility supply management and repair,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+35.2-3,35,Utility supply management and repair,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+"36, 37",36,Utility supply management and repair,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+"38, 39",38,Utility supply management and repair,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+41-43,41,Construction,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+45,45,Trades,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+46,46,Trades,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+47,47,Trades,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+49.1-2,49,Transport and storage inc postal,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+49.3-5,49,Transport and storage inc postal,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+50,50,Transport and storage inc postal,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+51,51,Transport and storage inc postal,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+52,52,Transport and storage inc postal,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+53,53,Transport and storage inc postal,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+55,55,Accommodation and food services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+56,56,Accommodation and food services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+58,58,Information and communication,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+"59, 60",59,Information and communication,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+61,61,Information and communication,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+62,62,Information and communication,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+63,63,Information and communication,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+64,64,Finance and insurance,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+65,65,Finance and insurance,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+66,66,Finance and insurance,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+68.1-2,68,Property,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+68.2IMP,68,Property,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+68.3,68,Property,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+69.1,69,Professional scientific and technical,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+69.2,69,Professional scientific and technical,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+70,70,Professional scientific and technical,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+71,71,Professional scientific and technical,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+72,72,Professional scientific and technical,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+73,73,Professional scientific and technical,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+74,74,Professional scientific and technical,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+75,75,Professional scientific and technical,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+77,77,Business administration and support services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+78,78,Business administration and support services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+79,79,Business administration and support services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+80,80,Business administration and support services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+81,81,Business administration and support services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+82,82,Business administration and support services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+84,84,Public administration and defence,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+85,85,Education,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+86,86,Health and social care,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+"87, 88",87,Health and social care,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+90,90,Arts entertainment and recreation,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+91,91,Arts entertainment and recreation,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+92,92,Arts entertainment and recreation,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+93,93,Arts entertainment and recreation,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+94,94,Other services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+95,95,Other services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+96,96,Other services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025
+97,97,Other services,UK 2025 industry worker counts / group total; same shares for each IO industry in group,1.0,skills_england_staffing_2025

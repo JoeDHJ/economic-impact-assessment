@@ -1,0 +1,4 @@
+option,status,evidence,seats,cost_gbp,expected_project_matches,on_time_matches_capped,cost_per_on_time_match_gbp,months_to_ready,deadline_months,relevant_fte_demand,completion_rate,project_match_rate
+Incumbent IT conversion,scenario_option,"Official NCS network-engineer work and college routes; costs, rates and seats are scenario assumptions.",60.0,240000.0,30.599999999999998,30.599999999999998,7843.137254901962,6.0,36.0,60.0,0.85,0.6
+Electrical apprenticeship cohort,scenario_option,"Completion ratio uses SDS Electrical Installation 2025/26 leavers, not a cohort success probability. 48-month readiness is a scenario.",80.0,1440000.0,38.156815440289506,0.0,,48.0,36.0,18.0,0.7949336550060314,0.6
+Experienced-worker recruitment,scenario_option,"Licensed/experienced applicants are assumed; screening, relocation and retention require validation. All numerical inputs are scenarios.",30.0,180000.0,21.0,21.0,8571.42857142857,3.0,36.0,24.0,1,0.7

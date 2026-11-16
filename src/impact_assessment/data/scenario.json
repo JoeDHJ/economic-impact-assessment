@@ -1,0 +1,41 @@
+{
+  "schema_version": "portfolio.v1",
+  "name": "Scotland AI data-centre investment: illustrative investment committee case",
+  "geography": "Scotland",
+  "currency": "GBP",
+  "price_year": 2022,
+  "capital_gbp_m": 1000,
+  "construction_years": 3,
+  "operating_years": 10,
+  "supplier_retention": 1,
+  "resident_share": 0.85,
+  "capital_components": [
+    {"industry": "41-43", "share": 0.38, "capture": 0.90},
+    {"industry": "26", "share": 0.50, "capture": 0.02},
+    {"industry": "27", "share": 0.07, "capture": 0.15},
+    {"industry": "71", "share": 0.05, "capture": 0.75}
+  ],
+  "it_load_mw": 20,
+  "pue": 1.2,
+  "load_factor": 0.9,
+  "electricity_gbp_per_mwh": 100,
+  "electricity_io_valuation_gbp_per_mwh": 100,
+  "electricity_capture": 0.80,
+  "operating_procurement": [
+    {"industry": "61", "gbp_m": 2, "capture": 0.70},
+    {"industry": "33", "gbp_m": 1.5, "capture": 0.80},
+    {"industry": "80", "gbp_m": 0.8, "capture": 0.95},
+    {"industry": "81", "gbp_m": 0.7, "capture": 0.95}
+  ],
+  "onsite_fte": 120,
+  "onsite_compensation_gbp": 60000,
+  "onsite_roles": [
+    {"soc2020": "3131", "share": 0.35},
+    {"soc2020": "2137", "share": 0.15},
+    {"soc2020": "5241", "share": 0.15},
+    {"soc2020": "5225", "share": 0.05},
+    {"soc2020": "1251", "share": 0.10},
+    {"soc2020": "2135", "share": 0.10},
+    {"soc2020": "4159", "share": 0.10}
+  ]
+}

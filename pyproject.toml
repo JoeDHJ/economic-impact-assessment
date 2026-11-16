@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "economic-impact-assessment"
+version = "0.1.0"
+description = "Reproducible regional investment, occupation and skills assessment"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Haojian Dui", email = "dui@szu.edu.cn"}]
+dependencies = ["numpy>=1.26,<3"]
+
+[project.optional-dependencies]
+data = ["pandas>=2.2,<4", "openpyxl>=3.1,<4"]
+dev = ["pytest>=8,<10", "build>=1.2,<2", "pandas>=2.2,<4", "openpyxl>=3.1,<4", "playwright>=1.51,<2"]
+
+[project.scripts]
+impact-assessment = "impact_assessment.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+impact_assessment = ["data/*.json", "web/*.html", "web/*.css", "web/*.js"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
