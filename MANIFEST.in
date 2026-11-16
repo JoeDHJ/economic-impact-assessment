@@ -1,0 +1,12 @@
+include LICENSE README.md pyproject.toml
+recursive-include src/impact_assessment/data *.json
+recursive-include src/impact_assessment/web *.html *.css *.js
+recursive-include data *.json *.csv *.xlsx *.md
+recursive-include docs *.md *.png
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include outputs *.csv *.json *.md
+prune data/raw
+prune data/private
+prune .local
+exclude data/public/sources/retrieval-record.json

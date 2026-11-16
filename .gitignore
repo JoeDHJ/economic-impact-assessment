@@ -13,3 +13,5 @@ dist/
 build/
 *.egg-info/
 .playwright-cli/
+.local/
+data/public/sources/retrieval-record.json

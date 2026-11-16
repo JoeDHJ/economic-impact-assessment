@@ -1,0 +1,99 @@
+sic2007_io,industry,output_gbp_m_2022,fte_2022_derived,direct_fte_per_gbp_m,compensation_per_fte_gbp_2022,staffing_proxy_group,source,accessed_date
+01,Agriculture,4933.180381062999,32844.684554863714,6.657912749540766,19551.922815008587,Agriculture forestry and fishing,Scottish Government; Skills England,2026-11-16
+"02.1, 02.4",Forestry planting,219.806478256,2365.613866477686,10.762257260327642,28502.728900721053,Agriculture forestry and fishing,Scottish Government; Skills England,2026-11-16
+02.2-3,Forestry harvesting,350.3128787079997,3770.157322261449,10.76225726032765,20419.60230556695,Agriculture forestry and fishing,Scottish Government; Skills England,2026-11-16
+03.1,Fishing,469.673166674,4967.934895121828,10.577429684353396,16644.016511003872,Agriculture forestry and fishing,Scottish Government; Skills England,2026-11-16
+03.2,Aquaculture,1221.970235964998,4365.055552431146,3.572145559653532,31525.24904828703,Agriculture forestry and fishing,Scottish Government; Skills England,2026-11-16
+05,Coal & lignite,12.05719913,122.43805325539664,10.15476744932856,31036.259422333704,Mining and quarrying,Scottish Government; Skills England,2026-11-16
+06-08,"Oil & gas extraction, metal ores & other",647.4311565437496,2707.528629939452,4.181956031268775,28926.31899214725,Mining and quarrying,Scottish Government; Skills England,2026-11-16
+09,Mining Support,3056.053636752999,16376.422346174524,5.358682893921382,57270.209828161016,Mining and quarrying,Scottish Government; Skills England,2026-11-16
+10.1,Meat processing,1465.865063633,5779.914016529014,3.9430055057073767,37411.99202645864,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+10.2-3,Fish & fruit processing,1709.681452558999,6677.822350552385,3.905886877673747,44259.8548575572,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+10.4-5,"Dairy products, oils & fats processing",417.9975813319997,1128.9047863615206,2.7007447812595693,43429.8502613481,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+10.6,Grain milling & starch,105.8668504519999,260.12241679817424,2.4570714599289407,67706.70093252654,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+10.7,Bakery & farinaceous,1163.879171848,10273.130957602207,8.826630122859399,39921.15588641563,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+10.8,Other food,737.1298846479999,4744.448915851454,6.436381178762086,43016.25742415094,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+10.9,Animal feeds,580.9923649730002,1149.4760721382193,1.9784701855619695,52336.470874155,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+11.01-04,Spirits & wines,5581.109764669005,11680.053020501306,2.092783247955706,80782.81460228363,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+11.05-06,Beer & malt,624.9527989820003,1881.5054043033465,3.010636015020931,57239.849778627846,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+11.07,Soft Drinks,490.6688439359998,1307.083927368814,2.663882053084469,102483.39214885219,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+12,Tobacco,0.0,0.0,0.0,,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+13,Textiles,610.5891569169999,4043.9627031447253,6.623050306958595,62017.01981696653,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+14,Wearing apparel,256.8055007970001,1707.5792132017273,6.649309332947414,60649.64565000552,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+15,Leather goods,164.910428168,1077.6274908059138,6.534623084648699,63696.78889563765,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+16,Wood and wood products,2083.854482427001,7779.928420975522,3.7334317182812495,47250.67930045375,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+17,Paper & paper products,1048.990385860204,3767.6011652740053,3.5916450866081653,64607.22444391146,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+18,Printing and recording,351.4621875956634,3308.756951965245,9.414261530096022,32936.49085807639,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+"19, 20B","Coke, petroleum & petrochemicals",1819.754232721311,2542.6662782652584,1.397258065152504,89630.17001015376,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+20.3,"Paints, varnishes and inks etc",37.112533332,245.70108270625352,6.6204341403554805,51724.85786395168,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+20.4,Cleaning & toilet preparations,238.8182498819999,1258.1701148637676,5.268316451885187,42625.20243203117,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+20.5,Other chemicals,2174.293956267618,2433.3191543611038,1.1191307170526874,58028.76870752057,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+20AC,"Inorganic chemicals, dyestuffs & agrochemicals",235.0987117818315,872.5304467970224,3.711336570855901,72844.75365108474,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+21,Pharmaceuticals,1985.071325737,3800.2273187762758,1.9144034118599544,173936.9633848248,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+22,Rubber & Plastic,1175.191837416,7169.897565084062,6.101044388505251,43367.81758420483,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+23.5-6,Cement lime & plaster,452.1921193780001,2242.2436390161965,4.958608394371071,37258.142797833825,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+23OTHER,"Glass, clay & stone etc",533.2383914450004,3214.7431982770795,6.028716705047402,43398.600757526234,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+24.1-3,Iron & Steel,200.7107318878581,898.5326175446479,4.47675422780422,50533.53253227203,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+24.4-5,Other metals & casting,83.6204837448807,571.676629641479,6.836562096263614,37249.970920369604,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+25,Fabricated metal,2653.281926711002,19588.933172911307,7.382906797693252,44887.5406934332,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+26,"Computers, electronics & opticals",3642.401474102001,11521.168783292305,3.163069437899549,87577.9201727541,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+27,Electrical equipment,732.1458359693798,3763.80716889204,5.140788875632493,84754.60768461863,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+28,Machinery & equipment,2670.132136111999,15515.246413476216,5.810666147806487,42667.70777323915,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+29,Motor Vehicles,601.6123562501419,3389.062513642666,5.63329938029654,38861.422257579085,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+30,Other transport equipment,2263.12589852726,11282.789413906548,4.985489062384412,44075.64409879528,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+31,Furniture,159.907537281,1758.2009800651613,10.9951101115111,40250.688779264136,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+32,Other manufacturing,1117.541684938,3986.088748179903,3.566836747034673,75770.82791694246,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+33,Repair & maintenance,2102.279047976,10799.159549016087,5.136882070633361,64468.16085455752,Manufacturing and production,Scottish Government; Skills England,2026-11-16
+35.1,Electricity,11812.49084562225,17059.92040903575,1.444227185611595,58277.84862779406,Utility supply management and repair,Scottish Government; Skills England,2026-11-16
+35.2-3,Gas etc,6759.326817302433,1940.67213049846,0.2871102674797073,57600.9409540437,Utility supply management and repair,Scottish Government; Skills England,2026-11-16
+"36, 37",Water and sewerage,1954.921601877,5848.658584309886,2.991761193233708,51803.68963796345,Utility supply management and repair,Scottish Government; Skills England,2026-11-16
+"38, 39","Waste, remediation & management",2861.12366768363,8612.155388800218,3.010060517856829,78586.58581801166,Utility supply management and repair,Scottish Government; Skills England,2026-11-16
+41-43,Construction,24294.355738672,153378.4850141441,6.313338236419856,32618.655740005768,Construction,Scottish Government; Skills England,2026-11-16
+45,Wholesale & Retail - vehicles,3334.821610913998,44855.074532749524,13.45051692898673,39096.70458176592,Trades,Scottish Government; Skills England,2026-11-16
+46,Wholesale - excl vehicles,10036.144085567,64372.55078945743,6.414072002217638,48539.51130847111,Trades,Scottish Government; Skills England,2026-11-16
+47,Retail - excl vehicles,10471.33639796,169053.30178537717,16.14438648139618,27877.019828829165,Trades,Scottish Government; Skills England,2026-11-16
+49.1-2,Rail transport,1090.477595372,5610.854488942786,5.145318448315967,67544.45697118924,Transport and storage inc postal,Scottish Government; Skills England,2026-11-16
+49.3-5,Other land transport,3722.062132306484,36995.833985763406,9.939606774602083,33190.27781540258,Transport and storage inc postal,Scottish Government; Skills England,2026-11-16
+50,Water transport,564.3089541940001,1634.2136683001972,2.8959555863052664,99282.73000479862,Transport and storage inc postal,Scottish Government; Skills England,2026-11-16
+51,Air transport,1372.041345095999,4890.410125817605,3.564331456407702,58463.05449733632,Transport and storage inc postal,Scottish Government; Skills England,2026-11-16
+52,Support services for transport,4922.988533411001,38153.75260219018,7.750120144146367,39524.527309888625,Transport and storage inc postal,Scottish Government; Skills England,2026-11-16
+53,Post & courier,1143.698345317,18788.117224574056,16.427511066623545,32677.533377159285,Transport and storage inc postal,Scottish Government; Skills England,2026-11-16
+55,Accommodation,3106.779853371002,46791.37673169657,15.061053225553053,25613.34552885991,Accommodation and food services,Scottish Government; Skills England,2026-11-16
+56,Food & beverage services,5945.542513313001,116720.65115151468,19.63162333633287,21902.86187387178,Accommodation and food services,Scottish Government; Skills England,2026-11-16
+58,Publishing services,403.7539639339999,4005.814633539671,9.9214249056747,45006.387187889464,Information and communication,Scottish Government; Skills England,2026-11-16
+"59, 60",Film video & TV etc; broadcasting,898.0875990140001,6987.407765336349,7.780318727268634,42700.07658349932,Information and communication,Scottish Government; Skills England,2026-11-16
+61,Telecommunications,3891.482138057003,26550.3865216612,6.822692634770173,50205.90547382352,Information and communication,Scottish Government; Skills England,2026-11-16
+62,Computer services,4677.918956798,42536.82953136672,9.093109548114715,54410.95454218812,Information and communication,Scottish Government; Skills England,2026-11-16
+63,Information services,505.7546179129999,5862.078712910476,11.590756673859719,45187.76155574378,Information and communication,Scottish Government; Skills England,2026-11-16
+64,Financial services,13078.80052399999,43581.318982486584,3.332210694896184,79311.18854821741,Finance and insurance,Scottish Government; Skills England,2026-11-16
+65,Insurance & pensions,7468.484012704001,10098.14308140351,1.3521007830004619,90614.33322182854,Finance and insurance,Scottish Government; Skills England,2026-11-16
+66,Auxiliary financial services,6058.602348436757,30002.7503637424,4.952091033253523,67743.03243399311,Finance and insurance,Scottish Government; Skills England,2026-11-16
+68.1-2,Real estate - own,6624.598927693784,19237.646312948156,2.903971474035386,41268.26765526155,Property,Scottish Government; Skills England,2026-11-16
+68.2IMP,Imputed rent,16275.000000048,0.0,0.0,,Property,Scottish Government; Skills England,2026-11-16
+68.3,Real estate - fee or contract,785.4122746459997,11803.364752303873,15.028240751169664,29830.10948901458,Property,Scottish Government; Skills England,2026-11-16
+69.1,Legal activities,1665.788139218,21321.786412924932,12.799818843069918,38702.309497846545,Professional scientific and technical,Scottish Government; Skills England,2026-11-16
+69.2,Accounting & tax services,1696.16007273,19225.053242694597,11.334456901671746,43872.14543192506,Professional scientific and technical,Scottish Government; Skills England,2026-11-16
+70,Head office & consulting services,2627.477417556,26458.479612341886,10.069917037366114,53128.2080299239,Professional scientific and technical,Scottish Government; Skills England,2026-11-16
+71,Architectural services etc,9426.931977110211,67662.95035566122,7.177621576134787,42761.11812729904,Professional scientific and technical,Scottish Government; Skills England,2026-11-16
+72,Research & development,2078.525110439999,16208.011359899625,7.7978424597760005,47640.76511634317,Professional scientific and technical,Scottish Government; Skills England,2026-11-16
+73,Advertising & market research,444.3460307469999,3453.7918567926895,7.7727528048049495,38717.7128919922,Professional scientific and technical,Scottish Government; Skills England,2026-11-16
+74,Other professional services,1104.876466139,16548.648375316945,14.977826827234663,27332.03645650228,Professional scientific and technical,Scottish Government; Skills England,2026-11-16
+75,Veterinary services,422.1032348140001,7272.1023552753895,17.228255449119796,28619.65010008697,Professional scientific and technical,Scottish Government; Skills England,2026-11-16
+77,Rental and leasing services,2178.171964528,14700.73904893857,6.749117741088984,38332.94374684433,Business administration and support services,Scottish Government; Skills England,2026-11-16
+78,Employment services,3011.665965709999,47869.51409448597,15.894695706467814,31320.345680565442,Business administration and support services,Scottish Government; Skills England,2026-11-16
+79,Travel & related services,936.9185156419999,5017.568785708446,5.355395055108163,30710.467375933196,Business administration and support services,Scottish Government; Skills England,2026-11-16
+80,Security & investigation,436.05700054,14394.034135677504,33.00952425451801,20255.46629609107,Business administration and support services,Scottish Government; Skills England,2026-11-16
+81,Building & landscape services,2412.735539876,53878.1905220913,22.330748493413545,21987.138033417727,Business administration and support services,Scottish Government; Skills England,2026-11-16
+82,Business support services,2377.348577236,38684.26490678385,16.272020551466507,31896.966427391402,Business administration and support services,Scottish Government; Skills England,2026-11-16
+84,Public administration & defence,21842.819088502,125483.40644429735,5.744835679674308,66263.74144290597,Public administration and defence,Scottish Government; Skills England,2026-11-16
+85,Education,14907.18335475779,276969.7348921122,18.5796154981695,29920.23660248665,Education,Scottish Government; Skills England,2026-11-16
+86,Health,20011.79510644399,184849.81585438232,9.237043197332103,53232.064385455116,Health and social care,Scottish Government; Skills England,2026-11-16
+"87, 88",Residential care and social work,7747.088437372,107149.63036930938,13.830954846522589,43360.51076412076,Health and social care,Scottish Government; Skills England,2026-11-16
+90,Creative services,515.136902364,8822.284175268438,17.126096256708355,15333.135343702981,Arts entertainment and recreation,Scottish Government; Skills England,2026-11-16
+91,Cultural services,577.9876694460003,8308.124069441192,14.374223722461947,33649.024468504766,Arts entertainment and recreation,Scottish Government; Skills England,2026-11-16
+92,Gambling,1420.066974762,6378.553338578571,4.491727117059111,18974.340289356376,Arts entertainment and recreation,Scottish Government; Skills England,2026-11-16
+93,Sports & recreation,2159.686652978,44165.63959872184,20.45002201491669,23211.20265469149,Arts entertainment and recreation,Scottish Government; Skills England,2026-11-16
+94,Membership organisations,1052.320560722,17215.43114371732,16.359493282071544,25587.289282659458,Other services,Scottish Government; Skills England,2026-11-16
+95,Repairs - personal and household,315.70804725,4212.275637640173,13.342313172982237,27602.99638537859,Other services,Scottish Government; Skills England,2026-11-16
+96,Other personal services,2351.788895897999,32254.89033780176,13.715044914984032,14082.588694082564,Other services,Scottish Government; Skills England,2026-11-16
+97,Households as employers,148.0,1397.8750000000002,9.445101351351353,105874.98882231957,Other services,Scottish Government; Skills England,2026-11-16
