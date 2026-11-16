@@ -8,17 +8,23 @@ from .case import default_scenario, run_case
 from .report import export_case
 from .site import build_site
 from .refresh import refresh
+from .workforce import default_workspace
+from .workforce_report import export_workspace
 
 
 def main(argv=None):
     parser=argparse.ArgumentParser(description="Scottish regional investment impact and workforce assessment")
-    parser.add_argument("--version",action="version",version="0.1.0")
+    parser.add_argument("--version",action="version",version="0.2.0")
     subs=parser.add_subparsers(dest="command",required=True)
     run=subs.add_parser("run",help="calculate case and write CSV, JSON and Markdown reports")
     run.add_argument("--scenario",type=Path);run.add_argument("--output",type=Path,default=Path("outputs"))
     subs.add_parser("validate",help="validate bundled official coefficients and base scenario")
     init=subs.add_parser("scenario",help="write an editable, complete scenario JSON")
     init.add_argument("--output",type=Path,default=Path("scenario.json"))
+    workforce=subs.add_parser("workforce",help="optimise workforce capacity and compare four programme options")
+    workforce.add_argument("--scenario",type=Path);workforce.add_argument("--output",type=Path,default=Path("outputs/workforce"))
+    workspace=subs.add_parser("workspace",help="write complete editable workforce inputs")
+    workspace.add_argument("--output",type=Path,default=Path("workspace.json"))
     update=subs.add_parser("refresh",help="download pinned official public source files")
     update.add_argument("--destination",type=Path,default=Path("data/public/sources"))
     update.add_argument("--overwrite",action="store_true",help="replace existing pinned source files")
@@ -34,6 +40,15 @@ def main(argv=None):
                 raise ValueError("scenario file must contain a JSON object")
             r=export_case(args.output,scenario)
             print(json.dumps({"output":str(args.output.resolve()),"construction_fte_job_years":r["construction"]["job_years_fte"]["total"],"operating_annual_fte":r["operations"]["total_annual_fte"]},indent=2))
+        elif args.command=="workforce":
+            w=json.loads(args.scenario.read_text(encoding="utf-8-sig")) if args.scenario else None
+            if args.scenario and not isinstance(w,dict):
+                raise ValueError("workspace file must contain a JSON object")
+            r=export_workspace(args.output,w);print(json.dumps(r["comparison"],indent=2))
+        elif args.command=="workspace":
+            args.output.parent.mkdir(parents=True,exist_ok=True)
+            args.output.write_text(json.dumps(default_workspace(),indent=2)+"\n",encoding="utf8")
+            print(args.output.resolve())
         elif args.command=="validate":
             r=run_case();print(json.dumps(r["diagnostics"],indent=2))
         elif args.command=="scenario":

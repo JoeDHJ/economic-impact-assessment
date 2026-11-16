@@ -1,0 +1,192 @@
+{
+  "schema_version": "portfolio.v1",
+  "case_id": "datavita-dv1-dv3-public-evidence-v1",
+  "title": "DataVita DV1 / DV3: public project evidence and conditional workforce assessment",
+  "geography": "North Lanarkshire, Scotland",
+  "retrieved_at": "2026-11-16",
+  "facts": [
+    {
+      "claim_id": "P01",
+      "label": "Debt facility",
+      "value": 300,
+      "unit": "nominal GBP million, approximately",
+      "status": "disclosed_financing",
+      "scope": "DV1 expansion and DV3 new-build",
+      "source_id": "nwf_datavita_20260818",
+      "source_url": "https://umbraco-prod.nationalwealthfund.org.uk/news-and-publications/news/datavita-secures-300-million-for-data-centre-rollout-in-scotland-s-ai-growth-zone-with-backing-from-national-wealth-fund-and-major-lenders/",
+      "source_locator": "financing transaction",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "Financing is not a disclosed bill of quantities or 2022-price capex."
+    },
+    {
+      "claim_id": "P02",
+      "label": "NWF guarantee face value",
+      "value": 202,
+      "unit": "nominal GBP million",
+      "status": "disclosed_guarantee",
+      "scope": "Covered lending tranche",
+      "source_id": "nwf_datavita_20260818",
+      "source_url": "https://umbraco-prod.nationalwealthfund.org.uk/news-and-publications/news/datavita-secures-300-million-for-data-centre-rollout-in-scotland-s-ai-growth-zone-with-backing-from-national-wealth-fund-and-major-lenders/",
+      "source_locator": "guarantee structure",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "Face exposure is not immediate expenditure or expected fiscal loss."
+    },
+    {
+      "claim_id": "P03",
+      "label": "Covered lenders' tranche",
+      "value": 252.5,
+      "unit": "nominal GBP million",
+      "status": "disclosed_financing",
+      "scope": "ING, ABN AMRO, Santander tranche",
+      "source_id": "nwf_datavita_20260818",
+      "source_url": "https://umbraco-prod.nationalwealthfund.org.uk/news-and-publications/news/datavita-secures-300-million-for-data-centre-rollout-in-scotland-s-ai-growth-zone-with-backing-from-national-wealth-fund-and-major-lenders/",
+      "source_locator": "guarantee structure",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "SNIB and Siemens financing sit outside this guarantee."
+    },
+    {
+      "claim_id": "P04",
+      "label": "Guarantee fraction of covered tranche",
+      "value": 0.8,
+      "unit": "fraction",
+      "status": "disclosed_guarantee",
+      "scope": "Covered tranche, not entire facility",
+      "source_id": "nwf_datavita_20260818",
+      "source_url": "https://umbraco-prod.nationalwealthfund.org.uk/news-and-publications/news/datavita-secures-300-million-for-data-centre-rollout-in-scotland-s-ai-growth-zone-with-backing-from-national-wealth-fund-and-major-lenders/",
+      "source_locator": "guarantee structure",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "202/252.5 = 80%; 202/300 is a different denominator."
+    },
+    {
+      "claim_id": "P05",
+      "label": "Construction jobs announcement",
+      "value": 600,
+      "unit": "jobs, approximately; duration/FTE basis unspecified",
+      "status": "announced_project_projection",
+      "scope": "DV1 and DV3",
+      "source_id": "datavita_funding_20260818",
+      "source_url": "https://blog.datavita.co.uk/blog/datavita-secures-funding-data-centre-expansion",
+      "source_locator": "project employment paragraph",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "Not observed hires, unique workers or FTE job-years; do not calibrate the IO model to reproduce it."
+    },
+    {
+      "claim_id": "P06",
+      "label": "Permanent skilled roles announcement",
+      "value": 100,
+      "unit": "roles, approximately; FTE basis unspecified",
+      "status": "announced_project_projection",
+      "scope": "DV1 and DV3",
+      "source_id": "datavita_funding_20260818",
+      "source_url": "https://blog.datavita.co.uk/blog/datavita-secures-funding-data-centre-expansion",
+      "source_locator": "project employment paragraph",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "A forward-looking announcement; not a verified payroll or task-based roster."
+    },
+    {
+      "claim_id": "P07",
+      "label": "CoreWeave capacity agreement",
+      "value": 15,
+      "unit": "years",
+      "status": "disclosed_contract",
+      "scope": "Both facilities",
+      "source_id": "datavita_funding_20260818",
+      "source_url": "https://blog.datavita.co.uk/blog/datavita-secures-funding-data-centre-expansion",
+      "source_locator": "facility and lease paragraph",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "AI infrastructure demand evidence; contract length is not the disclosed guarantee tenor or proof of operating utilisation."
+    },
+    {
+      "claim_id": "P08",
+      "label": "Facilities in financed package",
+      "value": "DV1 expansion; DV3 new-build",
+      "unit": "facility identifiers",
+      "status": "disclosed_project_scope",
+      "scope": "Chapelhall, North Lanarkshire",
+      "source_id": "datavita_funding_20260818",
+      "source_url": "https://blog.datavita.co.uk/blog/datavita-secures-funding-data-centre-expansion",
+      "source_locator": "facility and lease paragraph",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "DV2 is a separate Glasgow facility. DV4 and the wider growth zone are outside this package."
+    },
+    {
+      "claim_id": "P09",
+      "label": "Wider growth-zone jobs announcement",
+      "value": 3400,
+      "unit": "jobs, more than",
+      "status": "announced_area_projection",
+      "scope": "Wider Lanarkshire AI Growth Zone",
+      "source_id": "ukgov_lanarkshire_20260818",
+      "source_url": "https://www.gov.uk/government/news/lanarkshire-ai-growth-zone-secures-300-million-investment-as-dell-establishes-scottish-base",
+      "source_locator": "wider development",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "Not the job count attributable to the financed DV1/DV3 package."
+    },
+    {
+      "claim_id": "P10",
+      "label": "Publicly itemised project capex",
+      "value": null,
+      "unit": "GBP and price year unavailable",
+      "status": "not_disclosed_in_selected_sources",
+      "scope": "DV1/DV3 selected public sources",
+      "source_id": "datavita_funding_20260818",
+      "source_url": "https://blog.datavita.co.uk/blog/datavita-secures-funding-data-centre-expansion",
+      "source_locator": "disclosure coverage",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "Conditional model capital is an independent analytical input, not a conversion of the financing facility."
+    },
+    {
+      "claim_id": "P11",
+      "label": "Verified detailed operating roster",
+      "value": null,
+      "unit": "occupation FTE unavailable",
+      "status": "not_disclosed_in_selected_sources",
+      "scope": "DV1/DV3 selected public sources",
+      "source_id": "datavita_funding_20260818",
+      "source_url": "https://blog.datavita.co.uk/blog/datavita-secures-funding-data-centre-expansion",
+      "source_locator": "disclosure coverage",
+      "retrieved_at": "2026-11-16",
+      "publication_date": "2026-08-18",
+      "interpretation": "Task/shift staffing in this assessment is a scenario, not an employer workforce observation."
+    }
+  ],
+  "scope_note": "Independent public-data work sample. No client engagement, access to internal personnel data or verification of forecast employment is claimed.",
+  "sources": [
+    {
+      "source_id": "nwf_datavita_20260818",
+      "url": "https://umbraco-prod.nationalwealthfund.org.uk/news-and-publications/news/datavita-secures-300-million-for-data-centre-rollout-in-scotland-s-ai-growth-zone-with-backing-from-national-wealth-fund-and-major-lenders/",
+      "owner": "National Wealth Fund",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "source_id": "datavita_funding_20260818",
+      "url": "https://blog.datavita.co.uk/blog/datavita-secures-funding-data-centre-expansion",
+      "owner": "DataVita",
+      "publication_date": "2026-08-18"
+    },
+    {
+      "source_id": "ukgov_lanarkshire_20260818",
+      "url": "https://www.gov.uk/government/news/lanarkshire-ai-growth-zone-secures-300-million-investment-as-dell-establishes-scottish-base",
+      "owner": "UK Government",
+      "publication_date": "2026-08-18"
+    }
+  ],
+  "unknowns": [
+    "Itemised basic-price capital expenditure",
+    "Actual occupation and shift roster",
+    "Provider spare seats",
+    "Available qualified applicants",
+    "Independent realised employment",
+    "Guarantee tenor, fees and default/loss evidence"
+  ]
+}

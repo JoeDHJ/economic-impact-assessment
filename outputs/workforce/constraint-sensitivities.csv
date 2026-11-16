@@ -1,0 +1,5 @@
+scenario,employer_budget_gbp,public_budget_gbp,mentor_capacity_hours,redeploy_capacity,hire_capacity,critical_gap_fte,expected_gap_fte,employer_transition_gbp,public_transition_gbp,mentor_hours,resource_pv_gbp
+Published mixed plan,1000000,250000,1800,35,60,0.0,17.834154472727274,725250.0,78750.0,1650.0,12868203.83933527
+Employer transition budget £1m → £1.5m,1500000,250000,1800,35,60,0.0,17.834154472727274,725250.0,78750.0,1650.0,12868203.83933527
+"Mentor capacity 1,800 → 3,000 hours",1000000,250000,3000,35,60,0.0,17.834154472727274,725250.0,78750.0,1650.0,12868203.83933527
+"Redeploy 60 / hire 100 places; mentor 3,000h",1000000,250000,3000,60,100,0.0,0.0,999500.0,135000.0,2600.0,15772233.753000084

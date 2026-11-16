@@ -1,5 +1,7 @@
 # Public evidence snapshot
 
+Version 0.2 adds a separate [project/local evidence snapshot](public/evidence/README.md): 11 scoped DV1/DV3 claims and 39 North Lanarkshire observations. Its factual Nomis table cells and public claim records can be rebuilt offline with `scripts/prepare_project_evidence.py`. Original Scottish and UK coefficient sources below remain unchanged.
+
 `public/sources/` contains only official aggregated public files used by this case. The source inventory is `source-manifest.json`: original URLs, retrieval date, vintage, geography, units, license, file size and record counts. Source-native workbooks are retained. No private microdata, unpublished research or client data is included.
 
 Scottish Government, Skills England and SDS data are attributed to their original producers and distributed under the Open Government Licence v3.0, as indicated by the source sites. The repository's MIT license covers project code and original documentation; it does not replace the data producers' terms. [OGL v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
