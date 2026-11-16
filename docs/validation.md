@@ -6,6 +6,8 @@
 
 Actual Edge/Chromium runs the bundled highs-js 1.15.4 WebAssembly solver, compares all four default options with Python-generated references, and compares default/altered inputs with Python for monthly 412-occupation demand, target sizes, gaps and costs. Imports, recovery from pending advanced inputs, stale-result prevention and JSON/CSV/Markdown downloads pass at widths 390, 768 and 1440. No page errors or page-level horizontal overflow. Wide mobile charts/tables intentionally scroll within their module and include a cue. See [review findings and repairs](v0.2-review-record.md).
 
+Post-release: [main CI passed](https://github.com/JoeDHJ/economic-impact-assessment/actions/runs/43845519080), including clean installation outside the checkout; [Pages deployment passed](https://github.com/JoeDHJ/economic-impact-assessment/actions/runs/43845519156). The live 0.2.0 workspace executed a real optimal WASM solve, retained the 17.8 default displayed gap, served all method/interview links with HTTP 200 and preserved the original calculator. [Release assets](https://github.com/JoeDHJ/economic-impact-assessment/releases/tag/v0.2.0) were verified as uploaded. This completion record follows the immutable release build.
+
 The following record documents the preserved original benchmark.
 
 Version: 0.1.0. This file records checks actually executed.

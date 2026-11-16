@@ -9,7 +9,8 @@ Branch: `codex/workforce-decision-v02`. Full implementation authorised 16 Novemb
 - Added local browser MILP workflow, complete input editing/import/save and current-scenario exports; preserved the original regional calculator at `impact.html`.
 - Added methods/evaluation extension, capability/interview guide, owner rehearsal and decision presentation.
 - 63 local tests and actual browser Python/WASM parity passed. Two reviewers completed both rounds; all five substantive findings were repaired and verified in `v0.2-review-record.md`.
-- A clean environment installed the wheel with NumPy/SciPy and successfully ran validation, workforce comparison and site construction without an editable checkout. Remote CI and release steps are in progress. Prior version record follows unchanged.
+- A clean environment installed the wheel with NumPy/SciPy and successfully ran validation, workforce comparison and site construction without an editable checkout. Remote CI also installed and executed the wheel outside the checkout.
+- [Merged v0.2 PR](https://github.com/JoeDHJ/economic-impact-assessment/pull/2), [main CI passed](https://github.com/JoeDHJ/economic-impact-assessment/actions/runs/43845519080), [Pages deployed](https://github.com/JoeDHJ/economic-impact-assessment/actions/runs/43845519156), and [v0.2.0 published](https://github.com/JoeDHJ/economic-impact-assessment/releases/tag/v0.2.0) with wheel/source/dashboard assets. Actual online WASM solving, method links and the original calculator were verified. The completion record follows the release build; prior version record follows unchanged.
 
 Version: 0.1.0 | 2026-11-16
 
