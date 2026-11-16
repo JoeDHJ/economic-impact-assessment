@@ -1,6 +1,6 @@
 # Validation and independent review
 
-Candidate version: 0.1.0. This file records checks actually executed; publication results are added after the remote workflow completes.
+Version: 0.1.0. This file records checks actually executed.
 
 ## Calculation and public-data checks
 
@@ -33,4 +33,6 @@ Both reviewers rechecked affected paths and reported no unresolved P0/P1 or mate
 
 ## Installation and CI
 
-The built wheel was installed into a clean local environment and executed from a separate working directory. Imports resolved to that environment's `site-packages`; validation, case export and dashboard build passed with only NumPy as an external runtime dependency. The rebuilt source archive includes original official inputs, the coefficient rebuild script, documentation and reports; local acquisition records are excluded. The remote workflow repeats installation outside the checkout. Remote run and release links will be recorded when available. The public sources are bundled, so network data refresh is not part of the core runtime or CI.
+The built wheel was installed into a clean local environment and executed from a separate working directory. Imports resolved to that environment's `site-packages`; validation, case export and dashboard build passed with only NumPy as an external runtime dependency. The rebuilt source archive includes original official inputs, the coefficient rebuild script, documentation and reports; local acquisition records are excluded. The public sources are bundled, so network data refresh is not part of the core runtime or CI.
+
+[Main CI](https://github.com/JoeDHJ/economic-impact-assessment/actions/runs/43825140265) passed source reconstruction, all 46 tests, Chromium desktop/mobile checks, package builds and wheel installation outside the checkout. [Pages deployment](https://github.com/JoeDHJ/economic-impact-assessment/actions/runs/43825140364) passed. The live public dashboard returned HTTP 200 and executed without page errors; headline results and wage context matched the released public-data case. [Release artifacts](https://github.com/JoeDHJ/economic-impact-assessment/releases/tag/v0.1.0) include a wheel, complete source archive and offline dashboard bundle.

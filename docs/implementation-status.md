@@ -1,6 +1,6 @@
 # Implementation status
 
-Version: 0.1.0 release candidate | 2026-11-16
+Version: 0.1.0 | 2026-11-16
 
 ## Keep / change / add
 - Keep: independent repository, MIT license, original development brief.
@@ -19,7 +19,7 @@ Scotland is the assessment region because its official domestic 98-industry tabl
 - [x] 46 local checks; desktop/mobile browser execution and JSON/CSV/Markdown exports; all 412 occupation rows agree with Python.
 - [x] Two independent read-only reviews, fixes and targeted rechecks; no unresolved P0/P1 or material requirement gap.
 - [x] Clean wheel installation outside checkout; source archive inclusion verified.
-- [ ] Remote CI and publication.
+- [x] Remote CI and public dashboard publication; release package verification completed.
 
 ## Access notes
 BLS and ONS direct downloads returned HTTP 403 from this execution environment. Firecrawl connected account reported insufficient credits. Accessible official Scottish and UK education sources supplied all six included public files. Actual ASHE wage evidence was retrieved through the Scottish Government's own supporting workbook. No restricted data or private project inputs are used.
@@ -32,3 +32,11 @@ BLS and ONS direct downloads returned HTTP 403 from this execution environment. 
 - 238 annual operating FTE = 120 scenario on-site FTE + 118 modeled supplier FTE.
 - 98 official IO industries and 412 UK occupational staffing records; detailed Scottish staffing remains a proxy.
 - Scottish apprenticeship achievements and reported recruitment constraints support sequencing recommendations; no local shortage is fabricated.
+
+## Publication record
+
+- [Merged implementation PR](https://github.com/JoeDHJ/economic-impact-assessment/pull/1).
+- [Main-branch CI: passed](https://github.com/JoeDHJ/economic-impact-assessment/actions/runs/43825140265), including 46 tests, source rebuilding, Chromium runtime and clean wheel installation outside checkout.
+- [Dashboard deployment: passed](https://github.com/JoeDHJ/economic-impact-assessment/actions/runs/43825140364).
+- [Live dashboard](https://joedhj.github.io/economic-impact-assessment/): HTTP 200 and actual browser execution verified the 3,981 construction FTE job-years, 238 operating annual FTE and observed wage context.
+- [Version 0.1.0 release](https://github.com/JoeDHJ/economic-impact-assessment/releases/tag/v0.1.0): wheel, source archive and offline dashboard bundle.
