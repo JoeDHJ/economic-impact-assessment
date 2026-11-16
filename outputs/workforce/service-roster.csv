@@ -1,0 +1,10 @@
+soc2020,label,continuous_posts,daytime_posts,salary_gbp_2022,critical,routine_workload_sensitive,annual_coverage_hours,productive_hours_per_fte,required_service_fte,annual_loaded_cost_per_fte,status
+3131,IT operations,6,0,38000,True,True,52560.0,1650,31.854545454545455,47500.0,task_coverage_scenario_not_employer_roster
+2137,Networks,2,0,50000,True,False,17520.0,1650,10.618181818181819,62500.0,task_coverage_scenario_not_employer_roster
+5241,Electrical systems,2,0,40000,True,False,17520.0,1650,10.618181818181819,50000.0,task_coverage_scenario_not_employer_roster
+5225,Cooling systems,1,0,42000,True,False,8760.0,1650,5.3090909090909095,52500.0,task_coverage_scenario_not_employer_roster
+2135,Cyber security,0,5,55000,True,False,9750.0,1650,5.909090909090909,68750.0,task_coverage_scenario_not_employer_roster
+1251,Facilities management,0,4,50000,False,False,7800.0,1650,4.7272727272727275,62500.0,task_coverage_scenario_not_employer_roster
+4159,Administration,0,4,28000,False,False,7800.0,1650,4.7272727272727275,35000.0,task_coverage_scenario_not_employer_roster
+5246,Technical maintenance,0,4,40000,False,False,7800.0,1650,4.7272727272727275,50000.0,task_coverage_scenario_not_employer_roster
+2139,IT engineering support,0,6,48000,False,True,11700.0,1650,7.090909090909091,60000.0,task_coverage_scenario_not_employer_roster

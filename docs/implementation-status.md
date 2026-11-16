@@ -1,5 +1,16 @@
 # Implementation status
 
+## Version 0.2.0 delivery
+
+Branch: `codex/workforce-decision-v02`. Full implementation authorised 16 November 2026 for labour markets, personnel economics, AI economics and economic consulting.
+
+- Added scoped DV1/DV3 primary-project claim ledger and 39 official North Lanarkshire observations with periods, populations, units and suppression.
+- Added phased occupation demand, task-based technical coverage, integer workforce allocation and four programme options; separate regional, employer, public-programme and guarantee ledgers.
+- Added local browser MILP workflow, complete input editing/import/save and current-scenario exports; preserved the original regional calculator at `impact.html`.
+- Added methods/evaluation extension, capability/interview guide, owner rehearsal and decision presentation.
+- 63 local tests and actual browser Python/WASM parity passed. Two reviewers completed both rounds; all five substantive findings were repaired and verified in `v0.2-review-record.md`.
+- A clean environment installed the wheel with NumPy/SciPy and successfully ran validation, workforce comparison and site construction without an editable checkout. Remote CI and release steps are in progress. Prior version record follows unchanged.
+
 Version: 0.1.0 | 2026-11-16
 
 ## Keep / change / add

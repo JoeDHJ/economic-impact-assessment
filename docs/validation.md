@@ -1,5 +1,13 @@
 # Validation and independent review
 
+## Version 0.2.0 workforce workspace
+
+63 local tests passed. A hand-solvable MILP checks indivisible places, cost tie-breaking and explicit unmet demand. Construction work reconciles across phases and years; task-hour arithmetic, end-of-engagement retention, eligibility, budgets, route capacity and mentor constraints are checked. Invalid explicit files cannot silently select a default case. Suppressed local observations stay null.
+
+Actual Edge/Chromium runs the bundled highs-js 1.15.4 WebAssembly solver, compares all four default options with Python-generated references, and compares default/altered inputs with Python for monthly 412-occupation demand, target sizes, gaps and costs. Imports, recovery from pending advanced inputs, stale-result prevention and JSON/CSV/Markdown downloads pass at widths 390, 768 and 1440. No page errors or page-level horizontal overflow. Wide mobile charts/tables intentionally scroll within their module and include a cue. See [review findings and repairs](v0.2-review-record.md).
+
+The following record documents the preserved original benchmark.
+
 Version: 0.1.0. This file records checks actually executed.
 
 ## Calculation and public-data checks

@@ -17,7 +17,7 @@ def check(channel=None,screenshots=False):
             browser=p.chromium.launch(headless=True,**({"channel":channel} if channel else {}))
             page=browser.new_page(viewport={"width":1440,"height":1050},device_scale_factor=1)
             errors=[];page.on("pageerror",lambda error:errors.append(str(error)))
-            page.goto((site/"index.html").as_uri());page.wait_for_function("window.currentImpact !== undefined")
+            page.goto((site/"impact.html").as_uri());page.wait_for_function("window.currentImpact !== undefined")
             base=run_case();calc=page.evaluate("({c:currentImpact.cTotal,o:currentImpact.oTotal,g:currentImpact.cGva})")
             assert abs(calc["c"]-base["construction"]["job_years_fte"]["total"])<1e-7
             assert abs(calc["o"]-base["operations"]["total_annual_fte"])<1e-7

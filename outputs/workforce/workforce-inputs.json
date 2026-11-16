@@ -1,0 +1,359 @@
+{
+  "schema_version": "workforce.v1",
+  "name": "North Lanarkshire AI infrastructure workforce decision case",
+  "project_evidence_id": "datavita-dv1-dv3-public-evidence-v1",
+  "currency": "GBP",
+  "price_year": 2022,
+  "status": "conditional_planning_scenario",
+  "economic_scenario": {
+    "schema_version": "portfolio.v1",
+    "name": "Conditional North Lanarkshire expansion package",
+    "geography": "Scotland",
+    "currency": "GBP",
+    "price_year": 2022,
+    "capital_gbp_m": 250,
+    "construction_years": 3,
+    "operating_years": 10,
+    "supplier_retention": 1,
+    "resident_share": 0.85,
+    "capital_components": [
+      {
+        "industry": "41-43",
+        "share": 0.38,
+        "capture": 0.9
+      },
+      {
+        "industry": "26",
+        "share": 0.5,
+        "capture": 0.02
+      },
+      {
+        "industry": "27",
+        "share": 0.07,
+        "capture": 0.15
+      },
+      {
+        "industry": "71",
+        "share": 0.05,
+        "capture": 0.75
+      }
+    ],
+    "it_load_mw": 20,
+    "pue": 1.2,
+    "load_factor": 0.9,
+    "electricity_gbp_per_mwh": 100,
+    "electricity_io_valuation_gbp_per_mwh": 100,
+    "electricity_capture": 0.8,
+    "operating_procurement": [
+      {
+        "industry": "61",
+        "gbp_m": 2,
+        "capture": 0.7
+      },
+      {
+        "industry": "33",
+        "gbp_m": 1.5,
+        "capture": 0.8
+      },
+      {
+        "industry": "80",
+        "gbp_m": 0.8,
+        "capture": 0.95
+      },
+      {
+        "industry": "81",
+        "gbp_m": 0.7,
+        "capture": 0.95
+      }
+    ],
+    "onsite_fte": 0,
+    "onsite_compensation_gbp": 60000,
+    "onsite_roles": [
+      {
+        "soc2020": "3131",
+        "share": 0.35
+      },
+      {
+        "soc2020": "2137",
+        "share": 0.15
+      },
+      {
+        "soc2020": "5241",
+        "share": 0.15
+      },
+      {
+        "soc2020": "5225",
+        "share": 0.05
+      },
+      {
+        "soc2020": "1251",
+        "share": 0.1
+      },
+      {
+        "soc2020": "2135",
+        "share": 0.1
+      },
+      {
+        "soc2020": "4159",
+        "share": 0.1
+      }
+    ]
+  },
+  "delivery": {
+    "phase_labels": [
+      "Preparation and design",
+      "Civil works",
+      "Electrical and equipment fit-out",
+      "Commissioning"
+    ],
+    "phase_boundaries": [
+      0,
+      0.16666666666666666,
+      0.5,
+      0.8333333333333334,
+      1
+    ],
+    "component_phase_weights": {
+      "41-43": [
+        0.05,
+        0.55,
+        0.35,
+        0.05
+      ],
+      "26": [
+        0,
+        0,
+        0.35,
+        0.65
+      ],
+      "27": [
+        0,
+        0.1,
+        0.7,
+        0.2
+      ],
+      "71": [
+        0.6,
+        0.25,
+        0.1,
+        0.05
+      ]
+    },
+    "construction_occupation_factors": {
+      "5241": [
+        0.2,
+        0.5,
+        2,
+        1.5
+      ],
+      "5315": [
+        0.2,
+        0.6,
+        1.8,
+        1.2
+      ],
+      "2121": [
+        1.3,
+        1.4,
+        0.6,
+        0.7
+      ],
+      "5316": [
+        0.2,
+        1.6,
+        0.8,
+        0.3
+      ]
+    },
+    "interpretation": "Phase timing and within-construction occupational factors are assumptions; each industry/phase profile is renormalised to preserve total FTE work."
+  },
+  "staffing": {
+    "annual_paid_hours": 1950,
+    "noncoverage_hours": 300,
+    "daytime_weekly_hours": 37.5,
+    "employer_oncost_fraction": 0.25,
+    "routine_workload_factor": 1,
+    "roles": [
+      {
+        "soc2020": "3131",
+        "label": "IT operations",
+        "continuous_posts": 6,
+        "daytime_posts": 0,
+        "salary_gbp_2022": 38000,
+        "critical": true,
+        "routine_workload_sensitive": true
+      },
+      {
+        "soc2020": "2137",
+        "label": "Networks",
+        "continuous_posts": 2,
+        "daytime_posts": 0,
+        "salary_gbp_2022": 50000,
+        "critical": true,
+        "routine_workload_sensitive": false
+      },
+      {
+        "soc2020": "5241",
+        "label": "Electrical systems",
+        "continuous_posts": 2,
+        "daytime_posts": 0,
+        "salary_gbp_2022": 40000,
+        "critical": true,
+        "routine_workload_sensitive": false
+      },
+      {
+        "soc2020": "5225",
+        "label": "Cooling systems",
+        "continuous_posts": 1,
+        "daytime_posts": 0,
+        "salary_gbp_2022": 42000,
+        "critical": true,
+        "routine_workload_sensitive": false
+      },
+      {
+        "soc2020": "2135",
+        "label": "Cyber security",
+        "continuous_posts": 0,
+        "daytime_posts": 5,
+        "salary_gbp_2022": 55000,
+        "critical": true,
+        "routine_workload_sensitive": false
+      },
+      {
+        "soc2020": "1251",
+        "label": "Facilities management",
+        "continuous_posts": 0,
+        "daytime_posts": 4,
+        "salary_gbp_2022": 50000,
+        "critical": false,
+        "routine_workload_sensitive": false
+      },
+      {
+        "soc2020": "4159",
+        "label": "Administration",
+        "continuous_posts": 0,
+        "daytime_posts": 4,
+        "salary_gbp_2022": 28000,
+        "critical": false,
+        "routine_workload_sensitive": false
+      },
+      {
+        "soc2020": "5246",
+        "label": "Technical maintenance",
+        "continuous_posts": 0,
+        "daytime_posts": 4,
+        "salary_gbp_2022": 40000,
+        "critical": false,
+        "routine_workload_sensitive": false
+      },
+      {
+        "soc2020": "2139",
+        "label": "IT engineering support",
+        "continuous_posts": 0,
+        "daytime_posts": 6,
+        "salary_gbp_2022": 48000,
+        "critical": false,
+        "routine_workload_sensitive": true
+      }
+    ],
+    "interpretation": "Technical service coverage requirements, not a verified employer roster. Security, cleaning and vendor equipment services remain outside these roles."
+  },
+  "programme": {
+    "employer_transition_budget_gbp": 1000000,
+    "public_transition_budget_gbp": 250000,
+    "mentor_hours_available": 1800,
+    "mentor_hourly_cost_gbp": 40,
+    "discount_rate": 0.035,
+    "operating_engagement_months": 36,
+    "retention_checkpoint_months": 12,
+    "construction_target_share": 0.25,
+    "construction_target_soc": [
+      "5241",
+      "5315",
+      "2121"
+    ],
+    "construction_salary_gbp_2022": {
+      "5241": 40000,
+      "5315": 39000,
+      "2121": 50000
+    },
+    "pathway_capacity": {
+      "redeploy": 35,
+      "hire": 60,
+      "apprentice": 20,
+      "contract": 20
+    },
+    "pathways": [
+      {
+        "id": "redeploy",
+        "label": "Internal conversion / qualified-worker refresher",
+        "lead_months": 6,
+        "max_places_per_role": 20,
+        "success_rate": 0.9,
+        "annual_attrition": 0.08,
+        "course_fee_gbp": 4500,
+        "recruitment_fee_gbp": 0,
+        "paid_release_gbp": 1800,
+        "onboarding_gbp": 500,
+        "mentor_hours": 30,
+        "public_fee_share": 0.5,
+        "annual_cost_multiplier": 1,
+        "kind": "employee"
+      },
+      {
+        "id": "hire",
+        "label": "Experienced external hire",
+        "lead_months": 3,
+        "max_places_per_role": 35,
+        "success_rate": 0.85,
+        "annual_attrition": 0.12,
+        "course_fee_gbp": 0,
+        "recruitment_fee_gbp": 6500,
+        "paid_release_gbp": 0,
+        "onboarding_gbp": 1000,
+        "mentor_hours": 10,
+        "public_fee_share": 0,
+        "annual_cost_multiplier": 1,
+        "kind": "employee"
+      },
+      {
+        "id": "apprentice",
+        "label": "New apprenticeship cohort",
+        "lead_months": 48,
+        "max_places_per_role": 20,
+        "success_rate": 0.75,
+        "annual_attrition": 0.08,
+        "course_fee_gbp": 18000,
+        "recruitment_fee_gbp": 0,
+        "paid_release_gbp": 24000,
+        "onboarding_gbp": 1000,
+        "mentor_hours": 120,
+        "public_fee_share": 0.5,
+        "annual_cost_multiplier": 1,
+        "kind": "employee"
+      },
+      {
+        "id": "contract",
+        "label": "Qualified specialist contract",
+        "lead_months": 1,
+        "max_places_per_role": 15,
+        "success_rate": 1,
+        "annual_attrition": 0,
+        "course_fee_gbp": 0,
+        "recruitment_fee_gbp": 0,
+        "paid_release_gbp": 0,
+        "onboarding_gbp": 2500,
+        "mentor_hours": 0,
+        "public_fee_share": 0,
+        "annual_cost_multiplier": 1.45,
+        "kind": "contractor"
+      }
+    ],
+    "interpretation": "Budgets, capacities, costs, success/attrition rates and leads are scenario inputs. Training counts and employee stocks do not supply these limits. Construction and operating cohorts are disjoint planning allocations; do not sum them as unique new workers."
+  },
+  "guarantee_stress": {
+    "default_probability": 0.05,
+    "loss_given_default": 0.5,
+    "interpretation": "Uncalibrated lifetime exposure illustration; not an estimate of NWF loss, subsidy cost or value for money."
+  }
+}
